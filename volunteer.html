@@ -1,0 +1,15 @@
+---
+layout: default
+title: Volunteer
+ishiring: false
+---
+<script>
+  var ishiring = {{page.ishiring}};
+  var maincontent = document.getElementById("maincontent");
+  if (ishiring == false} {
+    maincontent.innerHTML = "Sorry! We are not currently looking for volunteers"
+  else {  
+    maincontent.innerHTML = "If you wish to volunteer and help upkeep the site visit our discord to learn more: placeholder"
+  }
+</script>
+<p id="maincontent"></p>
