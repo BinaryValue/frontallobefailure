@@ -1,2 +1,2 @@
 - [Random Guides](README.md)
-  - [Github Markdown](GithubMarkdown.md)
+- [Github Markdown](GithubMarkdown.md)
